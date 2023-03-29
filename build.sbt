@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   "junit" % "junit" % "4.13.2" % "test",
   "com.github.sbt" % "junit-interface" % "0.13.3" % "test",
   "org.apache.logging.log4j" % "log4j-core" % "2.19.0" % "test",
-  "owl" % "xsat-owl" % "1.0.0" % "test"
+  "owl" % "xsat-owl" % "2.0.0-SNAPSHOT" % "test"
 )
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
